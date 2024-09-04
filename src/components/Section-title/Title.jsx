@@ -1,12 +1,16 @@
+
+
 const Title = () => {
     return (
         <div className="text-center lg:w-[850px] mx-auto mt-10 ">
-          <h1 className="text-4xl "> Our Recipes</h1> 
-           <p>Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget   <br/> urna volutpat curabitur elementum mauris aenean neque. </p> 
-           <p>adddddddd Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos accusamus facilis ea numquam a tenetur libero quaerat accusantium corporis odio sapiente debitis nihil quis qui maiores minima, quo temporibus nam!</p>
-           <p>lorem 4
+          <h1 className="text-4xl ">Our Recipes</h1> 
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos sed beatae accusamus? Cum autem aliquid reiciendis quod natus atque commodi fugiat delectus vel, asperiores eligendi ad ratione earum enim optio voluptatibus culpa tenetur modi tempore?</p>
+
+
+        
+
             
-           </p>
+           
         </div>
     );
 };

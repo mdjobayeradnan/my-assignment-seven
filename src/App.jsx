@@ -9,6 +9,8 @@ import './App.css'
 import Banner from './components/Bannner/Banner'
 import Title from './components/Section-title/Title'
 import Items from './components/Items/Items'
+import Navbar from './components/Navbar/Navbar'
+
 
 
 
@@ -18,10 +20,10 @@ function App() {
  
  
 
-  return (  
-     <>
-
-
+  return (
+    
+    <>
+<Navbar></Navbar>
 <Banner></Banner>
 <Title></Title>
 <Items></Items>
