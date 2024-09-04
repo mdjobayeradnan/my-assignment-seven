@@ -6,7 +6,10 @@ import './App.css'
 
 
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
+import Banner from './components/Bannner/Banner'
+import Title from './components/Section-title/Title'
+import Items from './components/Items/Items'
+
 
 
 
@@ -18,7 +21,11 @@ function App() {
   return (  
      <>
 
-<Navbar></Navbar>
+
+<Banner></Banner>
+<Title></Title>
+<Items></Items>
+
     
     
 
