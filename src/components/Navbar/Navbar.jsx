@@ -41,7 +41,7 @@ const Navbar = () => {
 <li><a>Search</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">Recipe Calories</a>
+    <a className="text-2xl font bold">Recipe Calories</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

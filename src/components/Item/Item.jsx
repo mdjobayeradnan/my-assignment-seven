@@ -4,12 +4,14 @@ import { FaGripfire } from "react-icons/fa";
 
 
 
-const Item = ({item}) => {
+const Item = ({item, CookTime,wantToCooks}) => {
 
     const {recipe_name ,recipe_image,short_description,ingredients,preparing_time,calories} = item;
     
+    
+    
     return (
-        <div className="space-y-4 mb-5 h-[650px] border-2 border-state-200 rounded-lg pt-5 px-7 w-[400px]   ">
+        <div className="mb-5 h-[500px] border-2 border-state-200 rounded-lg pt-5 px-7 w-[400px] ">
           <img src={recipe_image}alt="" />
             <h1>{recipe_name}</h1>
             <h1 className="w-[350px]">{short_description}</h1>
@@ -37,10 +39,11 @@ const Item = ({item}) => {
 
 
 
-<button className="bg-green-500 rounded-full w-[150px]">Want to Cook</button>
+<button  onClick={ () => CookTime(item)} className="bg-green-500 rounded-full w-[150px]">Want to Cook</button>
 
         </div>
     );
 };
+
 
 export default Item;
